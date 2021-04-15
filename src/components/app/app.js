@@ -65,10 +65,10 @@ addItem(body) {
                     <PostStatusFilter/>
                 </div>
                 <PostList
-                posts={this.state.data}
-                onDelete={this.deleteItem}/>
+                    posts={this.state.data}
+                    onDelete={this.deleteItem}/>
                 <PostAddForm
-                onAdd={this.addItem}/>
+                    onAdd={this.addItem}/>
             </AppBlock>
         )
     }
